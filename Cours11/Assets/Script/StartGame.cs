@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class StartGame : MonoBehaviour {
-    //[SerializeField] Scene mainScene;
+    [SerializeField] Scene mainScene;
 	
 	
 	public void StartTheGame() {
-       
+        SceneManager.LoadScene(1);
     }
 }
